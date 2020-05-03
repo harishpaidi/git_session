@@ -4,6 +4,9 @@ def add(x, y):
 def subtract(x, y):
     return x - y
 
+def mul(x, y):
+    return x * y
+
 
 print("Select operation.")
 print("1.Add")
@@ -23,6 +26,9 @@ while True:
 
         elif choice == '2':
             print(subtract(num1, num2))
+        
+        elif choice=='3':
+            print(mul(num1,num2))
         break
     else:
         print("Invalid Input")
