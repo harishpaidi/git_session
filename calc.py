@@ -6,7 +6,8 @@ def subtract(x, y):
 
 def mul(x, y):
     return x * y
-
+def div(x,y):
+    return x/y
 
 print("Select operation.")
 print("1.Add")
@@ -29,6 +30,9 @@ while True:
         
         elif choice=='3':
             print(mul(num1,num2))
+            
+        elif choice=='4':
+            print(div(num1,num2))
         break
     else:
         print("Invalid Input")
